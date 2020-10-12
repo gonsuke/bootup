@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bootup.co.jp/projects/</loc>
+    <loc>https://www.bootup.co.jp/projects/</loc>
     <lastmod>2020-10-11T17:18:10+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bootup.co.jp/</loc>
+    <loc>https://www.bootup.co.jp/</loc>
     <lastmod>2020-10-11T00:36:24+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bootup.co.jp/categories/</loc>
+    <loc>https://www.bootup.co.jp/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bootup.co.jp/contact/</loc>
+    <loc>https://www.bootup.co.jp/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bootup.co.jp/tags/</loc>
+    <loc>https://www.bootup.co.jp/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
