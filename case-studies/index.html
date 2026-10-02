@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>導入事例 | Bootup Inc.</title>
+  <meta name="description" content="数値で検証できた成果のみを掲載しています。守秘義務の都合により社名は伏せていますが、詳細は個別のご相談時にご説明可能です。">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="導入事例">
+  <meta property="og:description" content="数値で検証できた成果のみを掲載しています。守秘義務の都合により社名は伏せていますが、詳細は個別のご相談時にご説明可能です。">
+  <meta property="og:site_name" content="Bootup Inc.">
+  <meta property="og:locale" content="ja_JP">
+  <link rel="canonical" href="http://localhost:1313/case-studies/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <a href="#main" class="skip-link">本文へスキップ</a>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo">Bootup<span class="logo-dot">.</span></a>
+    <nav class="main-nav">
+      <a href="/services/" class="nav-link">サービス</a>
+      <a href="/case-studies/" class="nav-link">導入事例</a>
+      <a href="/why-bootup/" class="nav-link">選ばれる理由</a>
+      <a href="/technology/" class="nav-link">技術スタック</a>
+      <a href="/about/" class="nav-link">会社情報</a>
+    </nav>
+    <div class="header-actions">
+      <a href="/contact/" class="btn btn-primary btn-sm">お問い合わせ</a>
+    </div>
+    <details class="mobile-menu">
+      <summary aria-label="メニューを開く"><span class="burger"></span></summary>
+      <div class="mobile-panel">
+        <a href="/services/">サービス</a>
+        <a href="/case-studies/">導入事例</a>
+        <a href="/why-bootup/">選ばれる理由</a>
+        <a href="/technology/">技術スタック</a>
+        <a href="/about/">会社情報</a>
+        <div class="mobile-actions">
+          <a href="/contact/" class="btn btn-primary">お問い合わせ</a>
+        </div>
+      </div>
+    </details>
+  </div>
+</header>
+
+  <main id="main">
+    
+<div class="page-header">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+      <a href="/">ホーム</a> / 導入事例
+    </nav>
+    <h1 class="page-title">導入事例</h1>
+    <p class="page-lead">数値で検証できた成果のみを掲載しています。守秘義務の都合により社名は伏せていますが、詳細は個別のご相談時にご説明可能です。</p>
+  </div>
+</div>
+<div class="page-body">
+  <div class="container">
+    <div class="prose"><h2 id="saas企業--aiカスタマーサポート構築">SaaS企業 — AIカスタマーサポート構築</h2>
+<p><strong>成果: 問い合わせの自動応答率 92%</strong></p>
+<ul>
+<li><strong>課題</strong> — 問い合わせの約80%がFAQで回答可能な内容だったが、サポート担当がすべて一次対応しており、複雑な案件に時間を割けていなかった</li>
+<li><strong>アプローチ</strong> — ヘルプセンターと過去の問い合わせ履歴をRAGの検索対象とし、回答不能と判断した場合は有人にエスカレーションするエージェントを構築。自信度の閾値を運用しながら調整</li>
+<li><strong>技術</strong> — Amazon Bedrock / OpenSearch / Lambda / Step Functions</li>
+<li><strong>期間</strong> — PoC 6週間、本番開発 4か月</li>
+</ul>
+<h2 id="製造業--品質レポート自動生成">製造業 — 品質レポート自動生成</h2>
+<p><strong>成果: レポート作成工数 90%削減</strong></p>
+<ul>
+<li><strong>課題</strong> — 検査データからの日報作成に、担当者1名あたり1日2時間を要していた</li>
+<li><strong>アプローチ</strong> — 検査システムのデータを取得し、テンプレートに沿ったレポートをLLMで生成。異常値の検知時のみ担当者にレビューを求めるワークフローに変更</li>
+<li><strong>技術</strong> — Vertex AI / Gemini / Cloud Functions / BigQuery</li>
+<li><strong>期間</strong> — PoC 4週間、本番開発 3か月</li>
+</ul>
+<h2 id="金融機関--社内ナレッジ検索システム">金融機関 — 社内ナレッジ検索システム</h2>
+<p><strong>成果: 回答までの時間 75%短縮</strong></p>
+<ul>
+<li><strong>課題</strong> — 規程・通達・マニュアルが複数システムに分散し、正確な情報の特定に時間がかかっていた</li>
+<li><strong>アプローチ</strong> — 多段階RAG（検索 → 再ランキング → 回答生成）を構成し、回答に必ず根拠文書へのリンクを付与。部署ごとのアクセス権限を検索インデックスの段階で分離</li>
+<li><strong>技術</strong> — Amazon Bedrock / OpenSearch / Step Functions</li>
+<li><strong>期間</strong> — PoC 8週間、本番開発 6か月</li>
+</ul>
+<h2 id="ec企業--商品説明の生成パイプライン">EC企業 — 商品説明の生成パイプライン</h2>
+<p><strong>成果: 商品登録スループット 6倍</strong></p>
+<ul>
+<li><strong>課題</strong> — 新商品登録時の説明文作成が属人化し、登録の待ち行列が慢性化していた</li>
+<li><strong>アプローチ</strong> — 商品画像とスペック表から説明文を生成し、担当者のレビュー画面に流し込むパイプラインを構築。ブランドトーンの逸脱は事前チェックで弾く構成</li>
+<li><strong>技術</strong> — Vertex AI / Gemini / Cloud Run / Pub/Sub</li>
+<li><strong>期間</strong> — PoC 5週間、本番開発 3か月</li>
+</ul>
+<h2 id="物流企業--配車計画の意思決定支援">物流企業 — 配車計画の意思決定支援</h2>
+<p><strong>成果: 計画作成時間 60%短縮</strong></p>
+<ul>
+<li><strong>課題</strong> — 配車計画の作成が特定担当者の経験に依存し、属人化のリスクが高かった</li>
+<li><strong>アプローチ</strong> — 既存の最適化エンジンの出力をLLMが自然言語で説明し、担当者が制約条件を対話的に修正できるインターフェースを構築</li>
+<li><strong>技術</strong> — Amazon Bedrock / ECS / PostgreSQL</li>
+<li><strong>期間</strong> — PoC 6週間、本番開発 4か月</li>
+</ul>
+</div>
+
+    
+  </div>
+</div>
+
+  </main>
+  <section class="cta-band">
+  <div class="container">
+    <h2>まずは、現状の課題からお聞かせください。</h2>
+    <p>要件が固まっていない段階でのご相談も歓迎です。初回のヒアリングと概算のお見積もりは無料で承ります。</p>
+    <div class="cta-actions">
+      <a href="/contact/" class="btn btn-primary btn-lg">無料相談を予約する</a>
+    </div>
+  </div>
+</section>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo">Bootup<span class="logo-dot">.</span></a>
+        <p class="footer-desc">
+          AWS / Google Cloud を中心に、システム全体の設計・開発、AIエージェントとRAGの設計・開発から本番運用までを一貫して支援するシステム開発会社です。
+        </p>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        
+        <a href="/services/ai-agent/">AIエージェント導入支援</a>
+        
+        <a href="/services/rag-system/">RAGシステム構築</a>
+        
+        <a href="/services/system-dev/">システム開発</a>
+        
+        <a href="/services/cloud/">クラウド導入・構築・運用</a>
+        
+        <a href="/services/sre-devops/">SRE / DevOps</a>
+        
+        <a href="/services/diagnostics/">システム診断・監視</a>
+        
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <a href="/case-studies/">導入事例</a>
+        <a href="/why-bootup/">選ばれる理由</a>
+        <a href="/technology/">技術スタック</a>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <a href="/about/">会社情報</a>
+        <a href="/contact/">お問い合わせ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Bootup Inc. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
